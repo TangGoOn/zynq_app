@@ -42,6 +42,7 @@ static int my_axi_open(struct inode * inode , struct file * filp)
 	return 0;
 }
 
+
 static int my_axi_release(struct inode * inode, struct file *filp)
 {
 	return 0;
